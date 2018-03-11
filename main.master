@@ -65,9 +65,9 @@
             </div>
             <div class="headR">
                 <div class="headr_top">
-                    <a href="http://www.hualingedu.com/zhaosheng/">CMA简介</a> &nbsp; | &nbsp; <a href="/book.html">学员心声</a> &nbsp;
-                    | &nbsp; <a target="_blank" href="http://bzcj.com/front/suggestList">学员答疑</a> &nbsp; | &nbsp; <a href="/promotion/">
-                        活动咨询</a></div>
+                    <a href="http://www.hualingedu.com/zhaosheng/">CMA简介</a> &nbsp; | &nbsp; <a href="http://www.hualingedu.com/xyzt1/">学员心声</a> &nbsp;
+                    | &nbsp; <a target="_blank" href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211">备考攻略</a> &nbsp; | &nbsp; <a href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211">
+                        关于IMA</a></div>
                 <div class="headr_tel">
                     <span>
                         <%=ad5.Title%>：<b><%=ad5.Notes%></b></span></div>
