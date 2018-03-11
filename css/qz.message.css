@@ -1,0 +1,107 @@
+.qzMessage {
+	width: 95%;
+	border-collapse: collapse;
+	border: 0px;
+}
+
+.qzMessage a {
+	color: #003399;
+	text-decoration: none;
+}
+
+.qzMessage a:hover {
+	color: #003399;
+	text-decoration: underline;
+}
+
+.qzMessage .list {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #97b8ee;
+	margin-top: 15px;
+}
+
+.qzMessage .list td {
+	padding: 10px 20px 10px 20px;
+	font-size: 12px;
+	color: #2e323a;
+	line-height: 22px;
+}
+
+.qzMessage .list .ask {
+	background-color: #f2f6fd;
+	border-bottom: 1px dotted #ccc;
+}
+
+.qzMessage .list .t1 {
+	float: left;
+	font-family: ºÚÌå;
+	font-size: 14px;
+	color: #1357c6;
+}
+
+.qzMessage .list .t2 {
+	float: right;
+	color: #aaa;
+}
+
+.qzMessage .list .words {
+	clear: both;
+	padding-top: 5px;
+}
+
+.qzMessage .paging {
+	padding-top: 10px;
+	line-height: 18px;
+}
+
+.qzMessage .talk {
+	width: 100%;
+	margin-top: 10px;
+	border-collapse: collapse;
+	border: 1px solid #97b8ee;
+}
+
+.qzMessage .talk td {
+	padding: 10px 20px 10px 20px;
+	font-size: 12px;
+	color: #2e323a;
+	line-height: 22px;
+}
+
+.qzMessage .talk .t1 {
+	font-family: ºÚÌå;
+	font-size: 14px;
+	color: #1357c6;
+	background-color: #f2f6fd;
+	border-bottom: 1px dotted #ccc;
+}
+
+.qzMessage .talk input {
+	border: 1px solid #aeb6c1;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.qzMessage .talk textarea {
+	width: 98%;
+	height: 120px;
+	margin: 10px 0 10px 0;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #aeb6c1;
+	font-size: 14px;
+	color: #2e323a;
+	line-height: 22px;
+}
+
+.qzMessage .talk .submit {
+	float: right;
+	border: 1px solid #1c69bf;
+	background-color: #f0f0f0;
+	height: 30px;
+	width: 120px;
+	font-family: ºÚÌå;
+	font-size: 16px;
+	color: #1357c6;
+}

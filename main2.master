@@ -1,0 +1,90 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="main2.master.cs" Inherits="main2" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+ <link rel="shortcut icon" href="/images/favicon.ico">
+  <link rel="Bookmark" href="/images/favicon.ico">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="/js/jquery.js" language="javascript" type="text/javascript"></script>
+<script language="javascript" type="text/javascript" src="/js/public.js"></script>
+<script language="javascript" type="text/javascript" src="/js/jquery.SuperSlide.js"></script>
+<!--[if IE 6]>
+<script src="/js/ie6PNG.js" type="text/javascript"></script>
+<script type="text/javascript">DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+<!--右侧客服 开始-->
+<div class="Rlay">
+<ul>
+ <li><img src="/images/left_ico1.png" width="44" height="44" /><div class="Rlay_show"><img src="/images/left_ico1.jpg" width="27" height="31" /> <a  class="cor_bs"  href="<%=ad1.Url%>" target="_blank"><%=ad1.Title%></a>&nbsp;&nbsp;<a  class="cor_bs"  href="<%=ad7.Url%>" target="_blank"><%=ad7.Title%></a></div></li>
+ <li><img src="/images/left_ico2.png" width="44" height="44" /><div class="Rlay_show"><img src="/images/left_ico2.jpg" width="27" height="31" /><%=ad2.Notes%></div></li>
+ <li><img src="/images/left_ico3.png" width="44" height="44" /><div class="Rlay_show"><img src="/images/left_ico3.jpg" width="27" height="31" /><a class="cor_bs" href="mailto:<%=ad3.Notes%>"><%=ad3.Notes%></a></div></li>
+ <li><img src="/images/left_ico4.png" width="44" height="44" /><div class="Rlay_show"><img src="/images/left_ico4.jpg" width="27" height="31" /><a class="cor_bs" target="_blank" href="<%=ad4.Url%>"><%=ad4.Title%></a></div></li>
+ <li><img src="/images/left_ico5.png" width="44" height="44" /><div class="Rlay_show"><img src="/images/left_ico5.jpg" width="27" height="31" /><a class="cor_bs" href="#"><%=ad6.Title%></a><img class="left_wx" src="<%=ad6.Pic%>" width="112" height="112" /></div></li>
+</ul>
+</div>
+<div class="headBg">
+<div class="header">
+<div class="logo"><a href="http://www.hualingedu.com/"title="<%=bll_config["pageTitle"]%>"><img src="<%=bll_config["foreLogo2"] %>" alt="<%=bll_config["pageTitle"]%>" width="414" height="39" /></a></div>
+<div class="serBox">
+ <form action="/search.aspx" method="get">
+<input value="请输入关键词" class="ser_int" name="words" type="text" /><input class="serBtn" value="" name="" type="submit" />
+ </form>
+</div>
+<div class="headR">
+<div class="headr_top"><a href="/aboutcma1.html">了解CMA</a> &nbsp; | &nbsp; <a  target="_blank" href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211&lng=cn">内训咨询</a></div>
+<div class="headr_tel"><span><%=ad5.Title%>：<b><%=ad5.Notes%></b></span></div>
+</div>
+</div>
+</div>
+<div class="nav">
+<%for (int i = 0; i < SiteMenuList.Count-1; i++) {%>
+   <a class="nav_a31" target="<%=SiteMenuList[i].Target %>" href="<%=SiteMenuList[i].Url %>"><%=SiteMenuList[i].Title%></a>
+<% } %>
+</div>
+<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+<div class="footer2Bg">
+ <div class="footer2">
+ <div class="footer2L">
+<%= bll_config["foot2"] %><%= bll_config["footScript"] %>
+ </div>
+ <div class="footer2R"><a href="<%=ad1.Url%>" target="_blank"><img width="121" height="34" src="/images/m2ask.jpg"></a></div>
+ <div class="clear"></div>
+ </div>
+</div>
+<div class="mbackTop"></div>
+<!--右侧客服 结束-->
+     <script src="/js/qz.ad.floating.js" type="text/javascript"></script>
+    <script src="/js/qz.ad.popup.js" type="text/javascript"></script>
+    <script src="/js/qz.ad.screen.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+   var index="<%=Index %>";
+   $(".nav a").eq(index).addClass("nav_cuta");
+     //$(".nav ul li").eq(index).addClass("nav_cutLi");
+})
+</script>
+
+<!-- hualingedu.com Baidu tongji analytics -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7adea5fc863b8757d66d5fe9255b1994' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fcdf3d8ab8f1eb88a894574c723a16498' type='text/javascript'%3E%3C/script%3E"));
+</script>
+    <script type="text/javascript">
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95b1af130d058175c1ef238e884a1635";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿.lkf-box { width: 169px; height: 451px; position: fixed; z-index: 65001; top: 100px; left: 0px; cursor: default; }
+.lkf-content { width: 137px; height: 451px; background: url(/images/msglayer/lkf-bg.png) no-repeat; overflow: hidden; }
+.btn-kf { width: 117px; height: 26px; display: block; margin: 0 auto; margin-bottom: 5px; }
+.btn-kf.cma1 { background: url(/images/msglayer/lkf-cma1.png) no-repeat; margin-top: 58px; }
+.btn-kf.cma2 { background: url(/images/msglayer/lkf-cma2.png) no-repeat; }
+.btn-kf.cpe { background: url(/images/msglayer/lkf-cpe.png) no-repeat; }
+.btn-kf.jwfw { background: url(/images/msglayer/lkf-jwfw.png) no-repeat; }
+.btn-kf.qyzx { background: url(/images/msglayer/lkf-qyzx.png) no-repeat; }
+
+
+.kf-eqcode { margin: 125px auto 0 auto; display: block; }
+.showbtn-kf { width: 32px; height: 157px; display: block; position: absolute; right: -0px; top: 105px; background: url(http://www.hualingedu.com/images/msglayer/lkf-showbtn.png) no-repeat; }
+
+.tel-layer-box { z-index:65001; display:none !important; width: 550px; height: 350px; background: url(http://www.hualingedu.com/images/msglayer/lmsg-bg.jpg) no-repeat; position: fixed; right: 50%; bottom: 45%; margin-right: -275px; margin-bottom: -100px; _position: absolute; _bottom: expression(offsetParent.scrollTop+242); }
+.tel-layer-box .tlb-btn { display: block; position: absolute; bottom: 22px; left: 67px; width: 400px; height: 40px; }
+.tel-layer-box .tlb-close-btn { width: 32px; height: 32px; display: block; background: url(http://www.hualingedu.com/images/msglayer/close-btn.png) no-repeat; position:absolute; right:0px; }
+.tel-layer-box .tel-text { width:260px; height:44px; line-height:44px; font-size:18px; color:#fff; border:0px; background:none; position:absolute; right:68px; bottom:90px; }
+.tel-layer-box .tel-btn { width:165px; height:44px; display:block; position:absolute; left:54px; bottom:90px; text-indent:-999em; }
+/*手机端*/
+.lmobile { height: auto; overflow: hidden; width: 85%; left: 7%; top: 35%; position: fixed; z-index: 2147483647; display:none !important; }
+.lmobile .btns-bottom { width:80%; bottom:15px; height:43px; left:0px; padding:0 10%; position:absolute; }
+.lmobile .btns-bottom .btn-box { width:45%; float:left; margin-left:5%;  }
+/*.lmobile .btns-bottom*/
+
+img.img-responsive { width: 100% }
+.lmobile-close-btn {  width: 32px; height: 32px; display: block; background: url(http://www.hualingedu.com/images/msglayer/close-btn.png) no-repeat; position:absolute; right:0px; text-indent:-999em; }
+

@@ -1,0 +1,56 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+div.qzPagination {
+	text-align: center;
+	font-size: 12px;
+}
+
+div.qzPagination .total {
+	padding-right:8px;
+}
+
+div.qzPagination span {
+	line-height:20px;
+	*line-height:21px;	/* ie6 ie7 */
+}
+
+div.qzPagination a {
+	border: #ddd 1px solid;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	color: #1f80b8;
+	text-decoration: none;
+	line-height:20px;
+	*line-height:21px;	/* ie6 ie7 */
+}
+
+div.qzPagination a:hover {
+	border: #1f80b8 1px solid;
+	color: #2a509f;
+	background: #f2f3f5;
+	text-decoration: none;
+}
+
+div.qzPagination a:active {
+	border: #1f80b8 1px solid; 
+	color: #2a509f;
+	background: #f2f3f5;
+	text-decoration: none;
+}
+
+div.qzPagination span.current {
+	border: #97b8ee 1px solid;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	font-weight: bold;
+	color: #ffffff;
+	background: #1f80b8; 
+}
+
+div.qzPagination span.disabled {
+	border: #f3f3f3 1px solid;
+	padding: 2px 5px 2px 5px;
+	margin-right: 5px;
+	color: #cccccc;
+}

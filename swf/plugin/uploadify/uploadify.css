@@ -1,0 +1,116 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*
+Uploadify v2.1.4
+Release Date: November 8, 2010
+
+Copyright (c) 2010 Ronnie Garcia, Travis Nickels
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+*/
+.uploadifyObject{
+	vertical-align:middle;
+}
+.uploadifyQueueItem {
+	background-color: #F5F5F5;
+	border: 2px solid #E5E5E5;
+	font: 11px Verdana, Geneva, sans-serif;
+	margin-bottom: 5px;
+	padding: 5px;
+	width: 95%;
+}
+.uploadifyError {
+	background-color: #FDE5DD !important;
+	border: 2px solid #FBCBBC !important;
+}
+.uploadifyQueueItem .cancel {
+	float: right;
+}
+.uploadifyQueue .completed {
+	background-color: #E5E5E5;
+}
+.uploadifyProgress {
+	background-color: #E5E5E5;
+	margin-top: 10px;
+	width: 100%;
+}
+.uploadifyProgressBar {
+	background-color: #0099FF;
+	height: 3px;
+	width: 1px;
+}
+.uploadifyMultiIcon {
+	margin-left:2px;
+	padding:3px 8px 5px 8px;
+	color:White;
+	background:#5ea717;
+}
+
+
+ul.uploadifyImage{
+	float:left;
+	width:100%;
+}
+
+ul.uploadifyImage li{
+	float:left;
+	position:relative;
+	margin:0 8px 8px 0;
+	text-align:center;
+	background:#f3f5f7;
+	border:1px solid #ccc;
+}
+
+ul.uploadifyImage li img{
+	display:none;
+}
+
+ul.uploadifyImage li a.del{
+	position:absolute;
+	top:3px;
+	right:3px;
+	display:block;
+	width:21px;
+	height:18px;
+	background:url(/plugin/uploadify/delete.png);
+	cursor:pointer;
+}
+
+ul.uploadifyFile{
+	float:left;
+}
+
+ul.uploadifyFile li{
+	float:left;
+	margin-bottom:10px;
+	padding:0 10px;
+	border:1px solid #ddd;
+	background:#f6f6f6;
+}
+
+ul.uploadifyFile li a.del{
+	float:right;
+	display:block;
+	width:21px;
+	height:18px;
+	margin:4px 0 0 10px;
+	background:url(/plugin/uploadify/delete.png);
+	cursor:pointer;
+}

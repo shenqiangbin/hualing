@@ -1,0 +1,77 @@
+﻿<%@ WebHandler Language="C#" Class="message" %>
+
+using System;
+using System.Web;
+using System.Text.RegularExpressions;
+using QianZhu.Model;
+using QianZhu.Utility;
+
+public class message : IHttpHandler {
+    
+    public void ProcessRequest (HttpContext context)
+    {
+        QianZhu.BLL.Message bll_message = new QianZhu.BLL.Message();
+        MessageModel model = null;
+
+        string handle = context.Request.QueryString["handle"];
+        string pkid = context.Request.QueryString["pkid"];
+        string groupName = context.Request.QueryString["groupName"];
+        string fkid = context.Request.QueryString["fkid"];
+        string realname = context.Request.QueryString["realname"];
+        string tel = context.Request.QueryString["tel"];
+        string email = context.Request.QueryString["email"];
+        string content = context.Request.QueryString["content"];
+        string code = context.Request.QueryString["code"];
+
+        switch (handle)
+        {
+            case "add":
+                //检测验证码
+                CheckCode(code);
+                //WebUtility.CheckCode(Code.Value, null);
+
+                if (String.IsNullOrEmpty(fkid) || !Regex.IsMatch(fkid, @"^\d+$")) fkid = "0";
+                if (String.IsNullOrEmpty(realname)) SystemHelper.PrintEnd("请填写您的姓名！");
+                if (String.IsNullOrEmpty(tel)) SystemHelper.PrintEnd("请填写您的电话！");
+                if (String.IsNullOrEmpty(email)) SystemHelper.PrintEnd("请填写您的邮箱！");
+                if (String.IsNullOrEmpty(content)) SystemHelper.PrintEnd("请填写留言内容！");
+                
+                model = new MessageModel();
+                model.GroupName = groupName;
+                model.Fkid = Convert.ToInt32(fkid);
+                model.Realname = HttpUtility.UrlDecode(realname, System.Text.Encoding.GetEncoding("gb2312"));
+                model.Tel = HttpUtility.UrlDecode(tel, System.Text.Encoding.GetEncoding("gb2312"));
+                model.Email = HttpUtility.UrlDecode(email, System.Text.Encoding.GetEncoding("gb2312"));
+                model.Content = HttpUtility.UrlDecode(content, System.Text.Encoding.GetEncoding("gb2312"));
+                model.CreateTime = DateTime.Now.ToString();
+                bll_message.Insert(model);
+                SystemHelper.PrintEnd("感谢您的留言！");
+                break;
+        }
+    }
+
+    /// <summary>
+    /// 检测验证码
+    /// <param name="checkCode">验证码</param>
+    /// <param name="returnPage">返回页面</param>
+    /// </summary>
+    public static void CheckCode(string code)
+    {
+        if (String.IsNullOrEmpty(code) || HttpContext.Current.Request.Cookies[ImageHelper.COOKIES_CODE_INFO] == null)
+        {
+            SystemHelper.PrintEnd("验证码输入错误！");
+        }
+
+        string cookieCode = HttpContext.Current.Request.Cookies[ImageHelper.COOKIES_CODE_INFO].Values[ImageHelper.COOKIE_CODE_NAME];
+        if (String.IsNullOrEmpty(cookieCode) || cookieCode.ToLower() != code.ToLower())
+        {
+            SystemHelper.PrintEnd("验证码输入错误！");
+        }
+    }
+ 
+    public bool IsReusable {
+        get {
+            return false;
+        }
+    }
+}

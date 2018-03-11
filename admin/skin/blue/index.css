@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	color:#333333;
+}
+
+*:focus {
+ 	outline:none;
+}
+
+body{
+	font-family:Arial,"宋体";
+	background:url(bg.jpg) no-repeat top center;
+}
+
+div.main{
+	margin:0 auto;
+	width:1002px;
+}
+
+div.main .login{
+	float:right;
+	width:260px;
+	height:300px;
+	margin-top:130px;
+	margin-right:120px;
+	_margin-right:60px;
+}
+
+div.main .login ul{
+	float:left;
+	list-style:none;
+	width:180px;
+	margin-top:46px;
+	padding-left:88px;
+}
+
+div.main .login ul li{
+	height:46px;
+}
+
+div.main .login ul li input{
+	margin-top:4px;
+	_margin-top:2px;
+	_margin-left:8px;
+	padding:5px 0px;
+	width:145px;
+	font-family:Arial;
+	font-size:16px;
+	border:none;
+	background:transparent;
+	vertical-align:middle;
+}
+
+div.main .login ul img{
+	margin-left:20px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+div.main .login .l{
+	float:left;
+	width:90px;
+	padding-left:20px;
+	line-height:22px;
+}
+
+div.main .login .l input{
+	vertical-align:middle;
+	_vertical-align:baseline;
+}
+
+div.main .login .l label{
+	padding-left:5px;
+	vertical-align:middle;
+}
+
+div.main .login .submit{
+	display:block;
+	float:right;
+	margin-right:16px;
+	_margin-right:4px;
+	width:122px;
+	height:42px;
+}
+
+div.main .login .info{
+	float:left;
+	width:100%;
+	height:30px;
+	margin-top:40px;
+	color:#888;
+	text-align:center;
+}

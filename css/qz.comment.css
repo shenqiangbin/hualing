@@ -1,0 +1,113 @@
+.qzComment {
+	width: 100%;
+	margin: 15px 0 15px 0;
+	border-collapse: collapse;
+	border: 1px solid #97b8ee;
+}
+
+.qzComment td {
+	padding: 5px 20px 5px 20px;
+	border-bottom: 1px dotted #ccc;
+	font-size: 12px;
+	color: #2e323a;
+	line-height: 22px;
+}
+
+.qzComment a {
+	color: #003399;
+	text-decoration: none;
+}
+
+.qzComment a:hover {
+	color: #003399;
+	text-decoration: underline;
+}
+
+.qzComment label {
+	color: #aaa;
+}
+
+.qzComment .t1 {
+	width: 65px;
+	background-color: #f2f6fd;
+	border-bottom: 1px dotted #ccc;
+	font-size: 14px;
+	font-weight: bold;
+	color: #008fcb;
+}
+
+.qzComment .t2 {
+	background-color: #f2f6fd;
+	border-bottom: 1px dotted #ccc;
+	text-align: right;
+}
+
+.qzComment .list {
+	line-height: 25px;
+}
+
+.qzComment .list .l {
+	float: left;
+	color: Gray;
+}
+
+.qzComment .list .r {
+	float: right;
+}
+
+.qzComment .list p {
+	margin:0;
+	padding:0;
+	margin-top:5px;
+}
+
+.qzComment .talk {
+	border-top: 1px solid #97b8ee;
+	background-color: #f2f6fd;
+}
+
+.qzComment .talk table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.qzComment .talk .t {
+	font-size:14px;
+	font-weight:bold;
+	color: #008fcb;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.qzComment .talk textarea {
+	width: 98%;
+	height: 120px;
+	margin-top: 8px;
+	padding: 2px 5px 2px 5px;
+	border: 1px solid #aeb6c1;
+	font-size: 14px;
+	color: #2e323a;
+	line-height: 22px;
+}
+
+.qzComment .talk .submit {
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: none;
+	background-color: #008fcb;
+	height: 30px;
+	width: 100px;
+	font-size: 14px;
+	font-weight:bold;
+	color: White;
+	cursor:pointer;
+}
+
+.qzComment .page {
+	padding:8px 0;
+}
+
+.clear {
+	clear:both;
+}

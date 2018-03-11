@@ -1,0 +1,913 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+input.text{
+	height:18px;
+	line-height:18px;
+	padding:0 2px;
+	background-color:#fff;
+	border:1px solid #bbb;
+}
+
+input.wrap{
+	width:100%;
+	border:none;
+	background:transparent;
+}
+
+textarea{
+	height:80px;
+	width:300px;
+	padding:2px;
+	background-color:#fff;
+	border:1px solid #bbb;
+}
+
+textarea.config{
+	width:95%;
+	height:40px;
+	margin:5px 0;
+}
+
+select{
+	height:20px;
+	border:1px solid #bbb;
+}
+
+.demo {
+	display:none;
+}
+
+.price{
+	font-family:Arial;
+	font-size:14px;
+	font-weight:bold;
+	color:#cc0000;
+}
+
+#top{
+	float:left;
+	width:100%;
+}
+
+#top h1{
+	float:left;
+	font-size:14px;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+#top a.btn{
+	display:block;
+	float:left;
+	margin-top:10px;
+	margin-left:6px;
+	width:9px;
+	height:13px;
+	cursor:pointer;
+}
+
+#top a.add{
+	background:url(icons.gif) no-repeat -24px -59px;
+}
+
+#top a.del{
+	background:url(icons.gif) no-repeat -41px -59px;
+}
+
+#top .help{
+	display:none;
+}
+
+#top .help table{
+	width:100%;
+	background-color:#f9f9f9;
+	border:1px solid #e2e2e2;
+	border-top:0px;
+	vertical-align:middle;
+	_margin-bottom:1px;
+}
+
+#top .help table tr td{
+	padding:8px 15px 10px 15px;
+	line-height:25px;
+	color:#666;
+}
+
+#top .help table tr td a:hover{
+	text-decoration:underline;
+}
+
+#top .help table tr td label{
+	margin-right:25px;
+	color:Green;
+}
+
+#top .help table tr td label strong{
+	font-family:Arial;
+	font-size:14px;
+	color:Green;
+}
+
+#top .help table tr td img.btn{
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+#top ul.tags{
+	float:left;
+	list-style:none;
+	margin-left:20px;
+	margin-top:6px;
+}
+
+#top ul.tags li{
+	float:left;
+	padding:5px 10px;
+}
+
+#top ul.tags li a{
+	color:#135581;
+	font-family:Arial;
+	text-decoration:underline;
+}
+
+#top ul.tags li.current{
+	background:#135581;
+}
+
+#top ul.tags li.current a{
+	color:White;
+	text-decoration:none;
+}
+
+#top ul.tabs{
+	position:relative;
+	float:right;
+	padding-right:15px;
+	list-style:none;
+	margin-top:-1px;
+}
+
+#top ul.tabs li{
+	float:left;
+	margin-left:5px;
+	padding:4px 15px 6px 15px;
+	padding:5px 15px 4px 15px\9;	/* ie8 */
+	color:#888;
+	background-color:#f2f2f2;
+	border:1px solid #e2e2e2;
+	cursor:pointer;
+}
+
+#top ul.tabs li.current{
+	color:#333;
+	padding:5px 25px 6px 15px;
+	border-top:0;
+	background:url(icons.gif) no-repeat 43px -34px;
+	background-color:#f9f9f9;
+}
+
+#main{
+	float:left;
+	width:100%;
+	margin-top:5px;
+}
+
+#main .home{
+	margin:0 auto;
+	width:95%;
+}
+
+.home h1{
+	margin-top:20px;
+	font-size:16px;
+}
+
+.home .msg{
+	font-size:14px;
+	margin-top:20px;
+	color:#003399;
+}
+
+.home .msg *{
+	font-size:14px;
+}
+
+.home .msg a{
+	color:#ba0000;
+	padding:0px 5px;
+	font-size:18px;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+.home .ad{
+	margin-top:20px;
+	text-align:center;
+}
+
+.home .ad img{
+	border:1px solid #888;
+}
+
+.home .info .l{
+	float:left;
+	margin-top:17px;
+	padding-right:35px;
+	line-height:30px;
+	color:#000;
+	border-right:1px solid #ccc;
+}
+
+.home .info .m{
+	float:left;
+	margin-top:17px;
+	margin-left:35px;
+	padding-right:35px;
+	line-height:30px;
+	color:#000;
+	border-right:1px solid #ccc;
+}
+
+.home .info iframe{
+	float:left;
+	margin-left:45px;
+	position:absolute;
+	background:transparent;
+}
+
+.homeFoot{
+	float:left;
+	margin:20px 15px 0 15px;
+	_margin:20px 8px 0 8px;
+	padding-top:15px;
+	width:97%;
+	font-family:Arial;
+	border-top:1px solid #ddd;
+}
+
+#main .ctrl{
+	float:left;
+	width:100%;
+	padding:8px 0;
+}
+
+#main .ctrl a{
+	cursor:pointer;
+}
+
+#main .ctrl a.btn{
+	float:left;
+	display:block;
+	margin-right:5px;
+	padding:0 12px;
+	padding-bottom:1px;
+	height:21px;
+	line-height:21px;
+	color:#243c5b;
+	font-family:"宋体";
+	border:1px solid #8baabf;
+	background:url(bg.gif) no-repeat 0 -233px;
+	/* ie6 */
+	_padding-bottom:0px;
+	_padding-top:1px;
+	_height:21px;
+	_line-height:21px;
+}
+
+#main .ctrl a.btn:hover{
+	border:1px solid #5a7c93;
+}
+
+#main .ctrl div.r{
+	float:right;
+	margin-top:2px;
+	margin-right:1px;
+}
+
+#main .ctrl div.r2{
+	float:right;
+	margin-top:5px;
+	margin-right:20px;
+}
+
+#main table.tree, table.frm, table.list, table.doc{
+	float:left;
+	width:100%;
+	border-top:2px solid #8baabf;
+	border-bottom:2px solid #8baabf;
+}
+
+#main table.frm{
+	table-layout:fixed\9;
+}
+
+#main table .operation{
+	display:none;
+	float:left;
+}
+
+#main table.tree tr td{
+	padding:0px 10px;
+}
+
+#main table.tree div.view{
+	float:left;
+	line-height:30px;
+	padding-left:3px;
+}
+
+#main table.tree tr input.text{
+	margin:4px 0;
+	_margin:3px 0;
+	background-color:#f8f8f8;
+}
+
+#main table.tree tr.new input.text{
+	border:1px solid #14983f;
+	background-color:#f1fff5;
+}
+
+#main table.tree div.open{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat;
+	cursor:pointer;
+}
+
+#main table.tree div.openu{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -20px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.openl{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -40px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.openm{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -60px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.close{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -80px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.closeu{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -100px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.closel{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -120px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.closem{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -140px 0;
+	cursor:pointer;
+}
+
+#main table.tree div.leaf{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -156px 0;
+}
+
+#main table.tree div.leafu{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -172px 0;
+}
+
+#main table.tree div.leafl{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -188px 0;
+}
+
+#main table.tree div.leafm{
+	float:left;
+	width:17px;
+	height:30px;
+	background:url(tree.gif) no-repeat -204px 0;
+}
+
+#main table.tree div.line{
+	float:left;
+	width:20px;
+	height:30px;
+	background:url(tree.gif) repeat-y -490px 0;
+}
+
+#main table.tree div.empty{
+	float:left;
+	width:20px;
+	height:30px;
+	background:none;
+}
+
+#main table.tree .info u{
+	color:#333;
+}
+
+#main table.tree tr td u{
+	margin:0 5px;
+	color:Gray;
+	text-decoration:none;
+}
+
+#main table.list tr td{
+	padding:2px 10px;
+	height:25px;
+	line-height:25px;
+	border-bottom:1px solid #e1e1e1;
+}
+
+#main table.list tr td div.pic{
+	width:90%;
+	height:80px;
+	margin:8px 0;
+	text-align:center;
+	background:#f3f5f7;
+	border:1px solid #ccc;
+}
+
+#main table.list tr td div.pic img{
+	display:none;
+}
+
+#main table.list tr input.text{
+	margin:4px 0;
+	_margin:3px 0;
+	background-color:#f8f8f8;
+}
+
+#main table.list tr.new input.text{
+	border:1px solid #14983f;
+	background-color:#f1fff5;
+}
+
+#main table.list tr td label{
+	color:Gray;
+	margin-right:3px;
+}
+
+#main table.list tr td u{
+	margin:0 5px;
+	color:Gray;
+	text-decoration:none;
+}
+
+#main table.list tr.nodata td{
+	padding:20px 0;
+	text-align:center;
+	color:Gray;
+	border:0px;
+}
+
+#main table.frm tr td{
+	padding:8px 15px;
+	height:25px;
+	line-height:25px;
+	border-bottom:1px solid #eaeaea;
+}
+
+#main table.frm tr td h2{
+	color:#3066a6;
+}
+
+#main table.frm a:hover{
+	text-decoration:underline;
+}
+
+#main table.frm span.fill{
+	margin-left:6px;
+	font-size:16px;
+	color:Red;
+	vertical-align:middle;
+}
+
+#main table.frm input.date{
+	width:100px !important;
+	background:url(bg.gif) no-repeat 86px -275px;
+	background-color:White;
+	cursor:pointer;
+}
+
+#main table.frm .imgDiv img{
+	margin-bottom:8px;
+	border:1px solid #ccc;
+}
+
+#main table.frm .headPic{
+	position:absolute;
+	right:0;
+	margin-top:40px;
+	margin-right:10px;
+	background:#f3f5f7;
+	border:1px solid #8baabf;
+	text-align:center;
+}
+
+#main table.frm .listbox {
+	width:125px;
+	height:80px;
+	background-color:#dfdfdf;
+	border:1px solid #777;
+}
+
+#main table.frm ul.innerTabs{
+	margin-top:20px;
+}
+
+#main table.frm ul.innerTabs li{
+	float:left;
+	width:100%;
+	margin-top:5px;
+}
+
+#main table.frm ul.innerTabs li a{
+	display:block;
+	float:right;
+	padding:3px 10px;
+	color:White;
+	text-decoration:none;
+	background:#a0bccf;
+	cursor:pointer;
+}
+
+#main table.frm ul.innerTabs li a.cur{
+	background:#135581;
+}
+
+#main table.frm div.innerDiv{
+	display:none;
+}
+
+#main table.frm ul.filespec li {
+	list-style:none;
+	margin-bottom:3px;
+}
+
+#main table.frm ul.filespec li .del {
+	margin-left:10px;
+	width:20px;
+	height:18px;
+	border:none;
+	background:url(icons.gif) no-repeat -2px -37px;
+	cursor:pointer;
+}
+
+#main table.frm td label{
+	margin-left:5px;
+	margin-right:15px;
+	vertical-align:middle;
+}
+
+#main table.doc tr td{
+	padding:3px 10px;
+	height:25px;
+	line-height:25px;
+	border-bottom:1px solid #eaeaea;
+}
+
+#main table.doc tr td a{
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+#main table.doc .h{
+	padding:8px 0px;
+	text-align:center;
+	font-size:16px;
+	line-height:28px;
+	font-weight:bold;
+	font-family:"微软雅黑", Arial;
+	border-bottom:1px solid #ccc;
+	background:#fafafa;
+}
+
+#main table.doc .cap{
+	color:#094b9d;
+	background:#f0f1ff;
+}
+
+#main table.doc .content{
+	margin:5px;
+	font-size:14px;
+	line-height:28px;
+}
+
+#main table.doc .content *{
+	font-size:14px;
+	line-height:28px;
+}
+
+#main table.doc .content p{
+	padding:3px 0px;
+}
+
+#main table tr.h td{
+	padding:0px 10px;
+	height:27px;
+	line-height:27px;
+	color:#7d7d7d;
+	font-weight:normal;
+	font-family:"宋体";
+	background:url(thbg.gif) repeat-x top right;
+	border:0px;
+	border-bottom:1px solid #cccccc;
+}
+
+#main table tr.h td.last{
+	background:url(thbg.gif) repeat-x bottom right;
+}
+
+#main h3{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family:"微软雅黑", Arial;
+	margin-bottom:10px;
+}
+
+/* icons */
+a.icon {
+	display:block;
+	float:left;
+	width:18px;
+	height:18px;
+	margin:0 5px;
+}
+
+a.icon2 {
+	display:block;
+	float:left;
+	height:18px;
+	line-height:20px;
+	padding-left:22px;
+	margin-top:6px;
+}
+
+a.iconhelp {
+	padding-top:3px;
+	padding-left:8px;
+}
+
+.icon_empty {
+	background:none;
+}
+
+.icon_moveup {
+	background:url(icons.gif) no-repeat;
+}
+
+.icon_movedown {
+	background:url(icons.gif) no-repeat -18px 0;
+}
+
+.icon_edit {
+	background:url(icons.gif) no-repeat -36px 0;
+}
+
+.icon_checked {
+	background:url(icons.gif) no-repeat -54px 0;
+}
+
+.icon_unchecked {
+	background:url(icons.gif) no-repeat -72px 0;
+}
+
+.icon_del {
+	background:url(icons.gif) no-repeat 0 -18px;
+}
+
+.icon_show {
+	background:url(icons.gif) no-repeat -18px -18px;
+}
+
+.icon_refresh {
+	background:url(icons.gif) no-repeat -36px -18px;
+}
+
+.icon_setting {
+	background:url(icons.gif) no-repeat -54px -18px;
+}
+
+.icon_add {
+	background:url(icons.gif) no-repeat -72px -18px;
+}
+
+.icon_addall {
+	background:url(icons.gif) no-repeat -18px -36px;
+}
+
+/* error */
+.error {
+	margin:0 auto;
+	margin-top:80px;
+	width:350px;
+	height:200px;
+	padding: 50px 0 0 200px;
+	background:url(warning.gif) no-repeat;
+	font-family:"微软雅黑", Arial;
+	font-size:20px;
+}
+
+/* rules */
+div.rules{
+	float:left;
+	width:90%;
+}
+
+div.rules dl{
+	float:left;
+	list-style:none;
+	padding:5px 10px;
+	margin-bottom:10px;
+	border:1px solid #8baabf;
+	background:#e9f1f5;
+	width:98%;
+}
+
+div.rules dl dd{
+	float:left;
+	_width:90px;
+}
+
+/* menu library */
+div.siteMenu{
+	float:left;
+	width:60%;
+}
+
+div.siteMenu td{
+	cursor:pointer;
+}
+
+div.siteMenu tr.h td{
+	cursor:default;
+}
+
+div.siteMenu td u, div.menuLib td u{
+	margin-left:3px;
+	line-height:30px;
+	text-decoration:none;
+}
+
+div.siteMenu td.nodata{
+	height:80px;
+	color:Gray;
+	text-align:center;
+}
+
+div.menuLib{
+	float:right;
+	width:36%;
+	margin-top:8px;
+}
+
+div.menuLib dl{
+	float:left;
+	position:relative;
+	margin-bottom:-1px;
+}
+
+div.menuLib dl dt{
+	float:left;
+	padding:3px 10px 0 15px;
+	font-size:14px;
+}
+
+div.menuLib dl dd{
+	float:left;
+	margin-left:5px;
+	padding:5px 10px 3px 10px;
+	color:Gray;
+	background:#f6f6f6;
+	border:1px solid #ddd;
+	cursor:pointer;
+}
+
+div.menuLib dl dd.cur{
+	color:#333;
+	background:#fafafa;
+	border-bottom:1px solid #fafafa;
+}
+
+div.menuLib .panel{
+	float:left;
+	width:99%;
+	padding:20px 0 0 0;
+	background:#fafafa;
+	border:1px solid #ddd;
+}
+
+div.menuLib .panel .block{
+	display:none;
+}
+
+#main .menuLib .panel .block table{
+	border-top:1px solid #ccc;
+	border-bottom:none;
+}
+
+div.menuLib .panel ul.add{
+	float:left;
+	list-style:none;
+	padding:0 20px 15px 20px;
+}
+
+div.menuLib .panel ul.add li{
+	float:left;
+	width:100%;
+	color:Gray;
+}
+
+div.menuLib .panel ul.add li input.text{
+	float:left;
+	width:90%;
+	margin:5px 0 15px 0;
+}
+
+div.menuLib .panel ul.add li input.btn{
+
+	padding:5px 10px;
+	border:1px solid #bbbbbb;
+	background:#e5e5e5;
+}
+
+div.menuLib .panel ul.add li u{
+	margin-left:10px;
+	color:Green;
+	line-height:30px;
+	text-decoration:none;
+}
+
+div.menuLib .panel ul.add li label{
+	color:Gray;
+}
+
+div.menuLib .panel .tags{
+	float:left;
+	width:100%;
+	padding:10px 0;
+	background:#f5f5f5;
+	border-top:1px solid #ccc;
+}
+
+div.menuLib .panel .tags ul{
+	list-style:none;
+	padding:0 20px;
+}
+
+div.menuLib .panel .tags ul li{
+	float:left;
+	margin-right:8px;
+	padding:4px 8px 3px 8px;
+	color:#518ca8;
+	background:#e1ecf4;
+	border:1px solid #c8e1f3;
+	cursor:pointer;
+}
+
+div.menuLib .panel .tags ul li.cur{
+	color:White;
+	background:#518ca8;
+	border:1px solid #518ca8;
+}
+
+div.menuLib .panel label{
+	margin-left:5px;
+	margin-right:15px;
+	vertical-align:middle;
+}

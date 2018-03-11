@@ -1,0 +1,11 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /bbs/
+Disallow: /ajax/
+Disallow: /css/
+Disallow: /inc/
+Disallow: /js/
+Disallow: /plugin/
+
+Sitemap: http://www.hualingedu.com/sitemap.xml
