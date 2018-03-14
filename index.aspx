@@ -228,38 +228,33 @@
                         <%} %>
                     </ul>
                 </div>
-                <div class="mrc1_t1">CMA高清网课试听</div>
-                <div class="mrc1_mv" >
+                <%--<div class="mrc1_t1">CMA高清网课试听</div>--%>
+                <div class="mrc1_mv" style="padding:0px;">
                     <a href="http://www.bzcj.com/front/playkpoint/163?kpointId=989" target="_blank">
-                       <img src="images/video_bg_img.jpg" width="280" />
-                    </a>
-                    <!-- video Button start -->
-  <%--                  <div class="BBCOMVideoEmbed" style="margin: 0 auto; width: 280px; height: 209px;">
-                        
-                        <script type="text/javascript" src="/js/swfobject.js"></script>
-                        <div id="CuPlayer" style="margin-left:-5px;">
-                            <object type="application/x-shockwave-flash" data="http://static.youku.com/v1.0.0473/v/swf/loader.swf" width="285" height="255" id="movie_player">
-                                <param name="allowFullScreen" value="true">
-                                <param name="allowscriptaccess" value="always">
-                                <param name="flashvars" value="skincolor1=ffffff&skincolor2=ffffff&VideoIDS=XMTg5MTA1ODM2NA==&ShowId=0&category=87&Cp=0&unCookie=0&frame=undefined&pvid=1483600706364I8KGvx&uepflag=0&Tid=0&isAutoPlay=false&playmode=1&show_ce=1&winType=interior&Fid=0&Pt=0&Ob=0&plchid=&embedid=AjQ3Mjc2NDU5MQJ2LnlvdWt1LmNvbQIvdl9zaG93L2lkX1hNVGc1TVRBMU9ETTJOQT09Lmh0bWw=&ysuid=14733236985065sY&vext=bc%3D%26pid%3Dundefined%26unCookie%3Dundefined%26frame%3Dundefined%26type%3D1%26fob%3D0%26fpo%3D0%26svt%3D0%26cna%3Dj16QENmIBGwCAXzIviq2dMXv%26emb%3DAjQ3Mjc2NDU5MQJ2LnlvdWt1LmNvbQIvdl9zaG93L2lkX1hNVGc1TVRBMU9ETTJOQT09Lmh0bWw%3D%26dn%3D%E7%BD%91%E9%A1%B5%26hwc%3D1%26mtype%3Doth&cna=j16QENmIBGwCAXzIviq2dMXv&pageStartTime=1483600706458">
-                                <param name="movie" value="http://static.youku.com/v1.0.0473/v/swf/loader.swf">
-                                <div class="player_html5">
-                                    <div class="picture" style="height: 100%">
-                                        <div style="line-height: 460px;"><span style="font-size: 18px">您还没有安装flash播放器,请点击<a href="http://www.adobe.com/go/getflash" target="_blank" rel="nofollow">这里</a>安装</span></div>
-                                    </div>
-                                </div>
-                            </object>
-                        </div>
-                    </div>--%>
-                    <!-- video Button END -->
+                       <img src="images/indexpage-videotry.jpg" width="100%" />
+                    </a>                                      
                 </div>
-                <div class="mrc1_tx"><a href="<%=ad9.Url %>" target="_blank">
-                    <img src="<%=ad9.Pic %>" alt="<%=ad9.Notes %>" width="294" height="424" /></a></div>
+                <div class="mrc1_tx" style="margin-top: 51px;"><a href="http://www.hualingedu.com/feeldetail/1214.html" target="_blank">
+                     <img src="images/index-liyao.jpg"  width="100%" />
+                </div>
+                <div class="mrc1_tx" style="padding-top: 17px;"><a href="http://www.hualingedu.com/feeldetail/1189.html" target="_blank">
+                    <img src="images/index-wanglin.jpg" width="100%" />
+                </div>
+                <div class="mrc1_tx" style="padding-top: 17px;"><a href="http://www.hualingedu.com/feeldetail/1604.html" target="_blank">
+                    <img src="images/index-gavin.jpg" width="100%" />
+                </div>
+                <%--<div class="mrc1_tx"><a href="<%=ad9.Url %>" target="_blank">
+                    <img src="<%=ad9.Pic %>" alt="<%=ad9.Notes %>" width="294" height="424" /></a></div>--%>
             </div>
             <div class="clear"></div>
         </div>
-        <div class="mcban"><a href="<%=ad10.Url %>" target="_blank">
-            <img src="<%=ad10.Pic %>" alt="<%=ad10.Notes %>" width="1050" height="90" /></a></div>
+<%--        <div class="mcban"><a href="<%=ad10.Url %>" target="_blank">
+            <img src="<%=ad10.Pic %>" alt="<%=ad10.Notes %>" width="1050" height="90" /></a></div>--%>
+        <div class="mcban">
+            <a href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211&lng=cn&p=%e6%96%87%e7%ab%a0%e5%a4%b4%e5%9b%be" target="_blank">
+                <img src="images/index-contact.jpg" width="1050" />
+            </a>
+        </div>
         <div class="mcon1 clearfix">
             <div class="mL">
                 <div class="mlc2_bx1">

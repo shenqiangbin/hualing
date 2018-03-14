@@ -66,7 +66,9 @@
  <h2 class="m2new_h2"><%=model.Title %></h2>
  <div class="m2new_info">发布时间：<%=QianZhu.Utility.DateHelper.ToShortDate(model.Pubdate) %> &nbsp;&nbsp; 来源：<%= model.Source %>&nbsp;&nbsp; 发布者：<%= model.Author %>  <a href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211&lng=cn&p=%e4%ba%94%e6%8a%98%e4%bc%98%e6%83%a0"><img class="btn" src="../btn.png"/></a></div>
  <div class="bar" style="border: 1px solid #aaaaaa;box-sizing: border-box;padding: 18px 5px;">
-			<img src="../5img.png" style="width: 290px; height: 180px;"/>
+			<a href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211&lng=cn&p=%e6%96%87%e7%ab%a0%e5%a4%b4%e5%9b%be" target="_blank">
+                <img src="../5img.png" style="width: 290px; height: 180px;"/>
+			</a>
 			<div style="padding-left:20px; width: 420px; height: 180px; display: inline-block;">
 				<a class="linka" href="http://www.hualingedu.com/wtdetail/897.html">2018CMA考试日期</a>
 				<a class="linka" href="http://www.hualingedu.com/aboutcma2.html">CMA在中国被认可吗</a>
