@@ -59,7 +59,7 @@
             <div class="mL">
                 <div class="mc1_bx1">
                     <div class="mc1_bx1L">
-                        <div class="mpub_t1"><span class="mpub_t1name"><strong>新闻</strong><span class="cor_red">资讯</span><span class="cor_hs">/News</span></span><a href="/artlist/14/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
+                        <div class="mpub_t1"><span class="mpub_t1name"><strong style="color:#445368;">行业资讯</strong><span class="cor_red"></span><span class="cor_hs">&nbsp;|&nbsp;News</span></span><a href="/artlist/14/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
 
                         <%if (articleList.Count > 0)
                           {%>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="mc1_bx1R">
-                        <div class="mpub_t1"><span class="mpub_t1name"><strong>最新</strong><span class="cor_red">课程</span><span class="cor_hs">/Course</span></span><a href="/table17.html" class="mpub_tmore" rel="nofollow">查看更多</a></div>
+                        <div class="mpub_t1"><span class="mpub_t1name"><strong style="color:#445368;">最新课程</strong><span class="cor_red"></span><span class="cor_hs">&nbsp;|&nbsp;Course</span></span><a href="/table17.html" class="mpub_tmore" rel="nofollow">查看更多</a></div>
                         <div class="mc1_tab">
                             <table width="100%">
                                 <tr class="mc1_th">
@@ -143,7 +143,7 @@
                 </div>
                 <div class="mc1_bx1 mc1_bx3">
                     <div class="mc1_bx1L">
-                        <div class="mpub_t1"><span class="mpub_t1name"><strong>考试</strong><span class="cor_red">资讯</span></span><a href="/artlist/16/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
+                        <div class="mpub_t1"><span class="mpub_t1name"><strong style="color:#445368;">聚焦CMA</strong><span class="cor_red"><span class="cor_hs">&nbsp;|&nbsp;Focus</span></span></span><a href="/artlist/16/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
                         <%if (articleList1.Count > 0)
                           {%>
                         <div class="mc1_bxlTop">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                     <div class="mc1_bx1R mc1_bx1Ra">
-                        <div class="mpub_t1"><span class="mpub_t1name"><strong>考试</strong><span class="cor_red">心得</span></span><a href="/feel/4/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
+                        <div class="mpub_t1"><span class="mpub_t1name"><strong style="color:#445368;">精英推荐CMA</strong><span class="cor_red"><span class="cor_hs">&nbsp;|&nbsp;Elite</span></span></span><a href="/feel/4/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
 
                         <%if (articleList2.Count > 0)
                           {%>
@@ -209,7 +209,7 @@
                 </div>
             </div>
             <div class="mR">
-                <div class="mpub_t1"><span class="mpub_t1name"><strong>CMA</strong><span class="cor_red">考试</span><span class="cor_hs">/CMA test</span></span></div>
+                <div class="mpub_t1"><span class="mpub_t1name" style="color:#445368;"><strong>CMA考试</strong><span class="cor_red"></span><span class="cor_hs">&nbsp;|&nbsp;CMA test</span></span></div>
                 <div class="mrc1_u1">
                     <ul>
                         <li><a href="<%=ad12.Url%>" target="_blank">
@@ -234,13 +234,14 @@
                        <img src="images/indexpage-videotry.jpg" width="100%" />
                     </a>                                      
                 </div>
-                <div class="mrc1_tx" style="margin-top: 51px;"><a href="http://www.hualingedu.com/feeldetail/1214.html" target="_blank">
+               <div class="mpub_t1" style="margin-top:86px;"><span class="mpub_t1name"><strong style="color:#445368;">学员分享</strong><span class="cor_red"><span class="cor_hs">&nbsp;|&nbsp;Share</span></span></span></div>
+                <div class="mrc1_tx" style="margin-top: -4px;padding-top:0px;"><a href="http://www.hualingedu.com/feeldetail/1214.html" target="_blank">
                      <img src="images/index-liyao.jpg"  width="100%" />
                 </div>
-                <div class="mrc1_tx" style="padding-top: 17px;"><a href="http://www.hualingedu.com/feeldetail/1189.html" target="_blank">
+                <div class="mrc1_tx" style="padding-top: 3px;"><a href="http://www.hualingedu.com/feeldetail/1189.html" target="_blank">
                     <img src="images/index-wanglin.jpg" width="100%" />
                 </div>
-                <div class="mrc1_tx" style="padding-top: 17px;"><a href="http://www.hualingedu.com/feeldetail/1604.html" target="_blank">
+                <div class="mrc1_tx" style="padding-top: 3px;"><a href="http://www.hualingedu.com/feeldetail/1604.html" target="_blank">
                     <img src="images/index-gavin.jpg" width="100%" />
                 </div>
                 <%--<div class="mrc1_tx"><a href="<%=ad9.Url %>" target="_blank">
@@ -251,7 +252,7 @@
 <%--        <div class="mcban"><a href="<%=ad10.Url %>" target="_blank">
             <img src="<%=ad10.Pic %>" alt="<%=ad10.Notes %>" width="1050" height="90" /></a></div>--%>
         <div class="mcban">
-            <a href="http://lwt.zoosnet.net/LR/Chatpre.aspx?id=LWT91490211&lng=cn&p=%e6%96%87%e7%ab%a0%e5%a4%b4%e5%9b%be" target="_blank">
+            <a href="http://cn.mikecrm.com/7YYhriE" target="_blank">
                 <img src="images/index-contact.jpg" width="1050" />
             </a>
         </div>
@@ -285,7 +286,7 @@
                 </div>
             </div>
             <div class="mR">
-                <div class="mpub_t1"><span class="mpub_t1name"><strong>精彩</strong><span class="cor_red">视频</span></span><a class="mpub_tmore" href="/video/8/" rel="nofollow">查看更多</a></div>
+                <div class="mpub_t1"><span class="mpub_t1name" style="color:#445368;"><strong>精彩视频</strong><span class="cor_red"><span class="cor_hs">&nbsp;|&nbsp;Video</span></span></span><a class="mpub_tmore" href="/video/8/" rel="nofollow">查看更多</a></div>
                 <div class="mrc1_u3">
                     <ul>
                         <% for (int i = 0; i < articleList3.Count; i++)
@@ -310,7 +311,7 @@
   }%>
                     </ul>
                 </div>
-                <div class="mpub_t1"><span class="mpub_t1name"><strong>财务能力</strong><span class="cor_red">提升</span></span><a href="/artlist/15/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
+                <div class="mpub_t1"><span class="mpub_t1name"><strong style="color:#445368;">IMA新闻</strong><span class="cor_red"><span class="cor_hs">&nbsp;|&nbsp;News</span></span></span><a href="/artlist/15/" class="mpub_tmore" rel="nofollow">查看更多</a></div>
                 <div class="mrc1_u5">
                     <ul>
                         <% for (int i = 0; i < articleList4.Count; i++)
